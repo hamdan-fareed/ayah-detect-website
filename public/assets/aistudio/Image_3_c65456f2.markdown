@@ -1,0 +1,211 @@
+---
+name: Editorial Quran Audio Notebook
+colors:
+  surface: '#f9f9f7'
+  surface-dim: '#dadad8'
+  surface-bright: '#f9f9f7'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f4f4f1'
+  surface-container: '#eeeeec'
+  surface-container-high: '#e8e8e6'
+  surface-container-highest: '#e2e3e0'
+  on-surface: '#1a1c1b'
+  on-surface-variant: '#404946'
+  inverse-surface: '#2f3130'
+  inverse-on-surface: '#f1f1ee'
+  outline: '#707976'
+  outline-variant: '#bfc8c5'
+  surface-tint: '#32675f'
+  primary: '#003c35'
+  on-primary: '#ffffff'
+  primary-container: '#1d544c'
+  on-primary-container: '#91c6bc'
+  inverse-primary: '#9bd1c6'
+  secondary: '#51625c'
+  on-secondary: '#ffffff'
+  secondary-container: '#d4e7df'
+  on-secondary-container: '#576862'
+  tertiary: '#2a3832'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#404f48'
+  on-tertiary-container: '#b0c0b7'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#b6ede2'
+  primary-fixed-dim: '#9bd1c6'
+  on-primary-fixed: '#00201c'
+  on-primary-fixed-variant: '#174f47'
+  secondary-fixed: '#d4e7df'
+  secondary-fixed-dim: '#b8cbc3'
+  on-secondary-fixed: '#0e1f1a'
+  on-secondary-fixed-variant: '#3a4a45'
+  tertiary-fixed: '#d6e6dd'
+  tertiary-fixed-dim: '#bacac2'
+  on-tertiary-fixed: '#101e19'
+  on-tertiary-fixed-variant: '#3b4a43'
+  background: '#f9f9f7'
+  on-background: '#1a1c1b'
+  surface-variant: '#e2e3e0'
+typography:
+  display-lg:
+    fontFamily: Noto Serif
+    fontSize: 3.5rem
+    fontWeight: '400'
+    lineHeight: '1.15'
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Noto Serif
+    fontSize: 2.25rem
+    fontWeight: '400'
+    lineHeight: '1.2'
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Noto Serif
+    fontSize: 2rem
+    fontWeight: '400'
+    lineHeight: '1.3'
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Noto Serif
+    fontSize: 1.5rem
+    fontWeight: '400'
+    lineHeight: '1.35'
+    letterSpacing: '0'
+  headline-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 1.125rem
+    fontWeight: '600'
+    lineHeight: '1.4'
+    letterSpacing: '0'
+  quran-arabic-lg:
+    fontFamily: Noto Serif
+    fontSize: 2rem
+    fontWeight: '400'
+    lineHeight: '2.2'
+    letterSpacing: '0'
+  quran-arabic-md:
+    fontFamily: Noto Serif
+    fontSize: 1.5rem
+    fontWeight: '400'
+    lineHeight: '2.0'
+    letterSpacing: '0'
+  body-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: '1.65'
+    letterSpacing: '0'
+  body-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: '1.6'
+    letterSpacing: '0'
+  body-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: '1.5'
+    letterSpacing: 0.01em
+  label-mono-lg:
+    fontFamily: Space Mono
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: '1.4'
+    letterSpacing: 0.04em
+  label-mono-sm:
+    fontFamily: Space Mono
+    fontSize: 0.6875rem
+    fontWeight: '400'
+    lineHeight: '1.3'
+    letterSpacing: 0.08em
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.75rem
+  space-xl: 3rem
+---
+
+## Brand & Style
+
+This design system is tailored for an audio-detecting Quranic study companion and technical notebook. It merges the reverence and serenity of traditional print codices with the utilitarian clarity of field research journals and audio engineering apparatus. The interface acts as an unobtrusive, tranquil booklet that recedes into the background during active recitation and focused listening.
+
+The visual direction follows **Minimalist Editorial & Technical Restraint**. It avoids modern app tropes—no decorative blurs, no vibrant gradients, no floating drop shadows, and no decorative iconography. The emotional experience balances scholastic quietude with surgical technical precision: generous margins, pristine typographic rhythm, fine hairline structural rules, and dedicated typographic pairing between sacred script, classic literary serifs, and utilitarian monospaced readouts.
+
+## Colors
+
+The palette draws strictly from physical ink-on-paper archetypes, maintaining extreme clarity and optical calm across daytime and night study sessions.
+
+- **Paper & Ink Foundation**: The light mode relies on natural, unbleached literary paper (`#FBFBF8`), warm subtle container fills (`#F3F3EE`), and deep carbon ink (`#121413`). The dark mode maps this inversion into an archival manuscript reading chamber: ink-washed black (`#0E100F`), elevated slate paper (`#161918`), and aged vellum text (`#ECECE6`).
+- **Primary Accent (`#1D544C`)**: A deep, muted spruce teal reminiscent of bookbinding buckram and natural vegetal ink. Used sparingly for primary interactive triggers (such as audio detection controls), verified verse badges, and audio frequency match confirmations.
+- **Secondary & Auxiliary Greys (`#50615B`, `#8A9A92`)**: Technical metadata, timestamp readouts, and hairline boundary definitions.
+- **Rules of Use**: Color must never serve as decorative fill. Interactive surfaces remain monochrome or tinted off-white/charcoal by default; teal is reserved solely for verified state changes, recording status, and deliberate primary actions.
+
+## Typography
+
+The typographic hierarchy orchestrates three distinct writing traditions into one cohesive page:
+
+1. **Literary Display & Surah Architecture (Noto Serif)**: Evokes classic literary typesetters (reminiscent of Zen Old Mincho and Bodoni book cuts). Used for Surah titles, verse translations, chapter numbering, and commentary headings.
+2. **Technical Apparatus & Metrics (Space Mono)**: Injected for the acoustic inspection engine: audio frequency badges, millisecond verse offsets, reciter confidence percentages, buffer logs, and metadata indices. Always styled with generous tracking.
+3. **Ergonomic Body & Commentary (IBM Plex Sans)**: A neutral, robust workhorse for structural explanations, tafsir notes, transliterations, and interface controls.
+4. **Quranic Text Integration**: Quranic script should always be presented using dedicated Uthmani fonts (with Noto Serif / Arabic traditional fallback), maintaining ample line-height (`2.0` to `2.2`) to prevent diacritic collision.
+
+## Layout & Spacing
+
+The layout model simulates an open-bound, dual-column editorial monograph:
+
+- **Grid Architecture**: A 12-column responsive grid on desktop with a generous 3rem outer margin that mirrors the margins of a printed codex. Tablet condenses to 8 columns with 2rem margins; mobile reflows to a focused 4-column column with 1.25rem margins.
+- **Typographic Measure**: Max body reading line length is constrained to `65ch` to maintain comfortable readability. Arabic recitation blocks are given deliberate horizontal breathing space.
+- **Rhythm & Negative Space**: Elements do not crowd each other. Content sections are divided by generous `space-xl` gaps, punctuated by structural hairline rules rather than bulky divider cards.
+
+## Elevation & Depth
+
+This system avoids layered shadows, ambient drops, and skeuomorphic bevels. Hierarchy is established strictly via:
+
+1. **Flat Tonal Grounding**: The base canvas is paper tone. Foreground cards or audio inspector wells use subtle container shifts (1-2% contrast deviation) or a crisp 1px solid border (`#50615B` at 20% opacity).
+2. **Hairline Rules**: 1px single-pixel lines demarcate structural blocks, metadata headers, and timeline axes. Never heavy borders; strictly ink lines.
+3. **Layered Content via Inset Panels**: Audio waveform containers, spectrum monitors, and mic activity logs are recessed using subtle inset borders and neutral tinting, framing them like archival plates or printed engravings.
+
+## Shapes
+
+The design system employs **sharp, unrounded geometry** (`roundedness: 0`). 
+
+Rectilinear corners reflect printed paper sheets, book spine bindings, index cards, and hardware instrumentation. Corner radiuses of buttons, input panels, active verse pill tags, and inspection modals are strictly `0px`. When an interactive element demands visual distinction, it uses an exact 1px hairline border or an inverted solid ink fill, never soft rounded corners.
+
+## Components
+
+### Action Buttons
+- **Primary (Detect / Listen)**: Sharp rectangular box with muted teal fill (`#1D544C`), crisp paper-white text (`#FBFBF8`), and a monospaced label (`label-mono-lg`). No shadows. Hover triggers a subtle ink darkening (`#163F39`).
+- **Secondary / Ghost**: Transparent fill with a 1px solid rule in neutral ink (`#121413`). On hover, inverts completely to solid black with paper-white typography.
+- **Technical Audio Trigger**: Monospaced text with an accompanying square status indicator dot that blinks calmly during audio input polling.
+
+### Audio Detection & Waveform Inspector
+- Framed inside a calibrated 1px hairline rectangular viewport.
+- Real-time decibel and hertz readouts rendered in `Space Mono` (`label-mono-sm`) directly above the waveform.
+- Waveform lines drawn as discrete vertical hairline ticks in `#50615B`, shifting to `#1D544C` when speech clarity exceeds match threshold.
+
+### Verse & Detection Cards
+- Styled as clean index cards with zero corner rounding. Separated from one another by single horizontal hairline rules.
+- Header contains Surah number, Ayah range, and confidence score (`e.g., [SURAH 018 : AYAH 010 // 98.4% MATCH]`) set in `Space Mono`.
+- Arabic calligraphy centered or right-aligned with ample line-height, paired with an understated serif English translation beneath.
+
+### Chips & Status Badges
+- Sharp rectangular enclosures with 1px border.
+- Active recitation match: Bordered in `#1D544C` with a matching teal text label.
+- Neutral metadata chip (e.g., `MAKKI`, `JUZ 15`): Bordered in 15% opacity ink with secondary text.
+
+### Form Inputs & Audio Source Selectors
+- Flat input surface flush with the page background, bordered only on the bottom edge by a crisp 1px line.
+- Placeholder text in light italic serif or neutral mono.
+- Focus state thickens the bottom rule to 2px in `#1D544C` without any outer glow.
+
+### Lists & Archival Index
+- Minimalist ledger layout with alternate rows indicated by faint zebra tinting or hairline dividers.
+- Left column displays timestamp and Surah index in monospace; right column renders the verse excerpt in serif.

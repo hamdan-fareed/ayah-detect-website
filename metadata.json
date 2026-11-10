@@ -1,0 +1,6 @@
+{
+  "name": "Ayah Detect — Offline Recognition Apparatus",
+  "description": "A quiet, offline app that recognizes Quranic recitation in the room. 100% on-device model, zero telemetry, and zero audio egress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
